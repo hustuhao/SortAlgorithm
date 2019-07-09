@@ -31,11 +31,6 @@ public class ListNode {
         return head;
     }
 
-    /**
-     * print list
-     * 打印链表
-     * @param head
-     */
     public static void printList(ListNode head){
         if(head == null){
             System.out.println("链表为空");
