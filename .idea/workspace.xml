@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c7c93d-ac07-4d59-ace4-875d5ff42a0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortAlgorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/cn" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/common" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/common/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/sort" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/sort/MergeSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/sort/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tuhao/sort/test/BaseSortTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="59c7c93d-ac07-4d59-ace4-875d5ff42a0f" name="Default Changelist" comment="adjust" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/tuhao/common/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="310">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -107,8 +90,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="776" />
-    <option name="y" value="57" />
+    <option name="x" value="875" />
+    <option name="y" value="75" />
     <option name="width" value="1709" />
     <option name="height" value="883" />
   </component>
@@ -120,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -132,7 +116,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,28 +232,7 @@
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\tuhao\AppData\Roaming\Subversion</configuration>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\program\code_programmer\idea\SortAlgorithm" />
-          <option name="myCopyRoot" value="D:\program\code_programmer\idea\SortAlgorithm" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\program\code_programmer\idea\SortAlgorithm\.idea" />
-          <option name="myCopyRoot" value="D:\program\code_programmer\idea\SortAlgorithm\.idea" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\program\code_programmer\idea\SortAlgorithm" />
-          <option name="myCopyRoot" value="D:\program\code_programmer\idea\SortAlgorithm" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -282,6 +244,7 @@
       <workItem from="1562553586614" duration="6945000" />
       <workItem from="1562563310624" duration="12657000" />
       <workItem from="1562634123158" duration="1988000" />
+      <workItem from="1562914179962" duration="300000" />
     </task>
     <servers />
   </component>
@@ -318,13 +281,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21591000" />
+    <option name="totallyTimeSpent" value="21891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="821" y="109" width="1709" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="875" y="75" width="1709" height="883" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13887204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14069133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -343,8 +305,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4996968" weight="0.3292011" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4996968" visible="true" weight="0.3292011" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.5003032" side_tool="true" visible="true" weight="0.3292011" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49909034" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5009096" side_tool="true" visible="true" weight="0.3292011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,7 +355,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:&#10;BubbleSort.java&#10;BaseSortTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:&#10;BubbleSort.java&#10;BaseSortTest.java" />
+    <MESSAGE value="adjust" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -518,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tuhao/common/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tuhao/sort/test/BaseSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -539,6 +495,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tuhao/common/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28520">
+          <caret line="975" column="25" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28117">
+          <caret line="958" column="22" selection-start-line="958" selection-start-column="22" selection-end-line="958" selection-end-column="22" />
+          <folding>
+            <element signature="e#35486#35487#0" expanded="true" />
+            <element signature="e#35532#35533#0" expanded="true" />
+            <element signature="e#35824#35825#0" expanded="true" />
+            <element signature="e#35852#35853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15717">
+          <caret line="530" column="8" selection-start-line="530" selection-start-column="8" selection-end-line="530" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2015">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="20" />
         </state>
       </provider>
     </entry>
