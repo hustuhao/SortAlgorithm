@@ -70,7 +70,7 @@ public class HeapSort {
      * 将序列转化为堆
      * heapify (堆化)
      * @param arr
-     * @param i   (最大的那个数)
+     * @param i   某个结点
      * @param len
      */
     private void heapify(int[] arr, int i, int len) {
