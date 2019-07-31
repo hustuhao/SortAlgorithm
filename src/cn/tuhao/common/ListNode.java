@@ -2,6 +2,12 @@ package cn.tuhao.common;
 
 import org.junit.Test;
 
+/**
+ * @version 0.1
+ * @author tuhao
+ * @date 2019.7.20
+ *
+ * */
 public class ListNode {
     public int val;
     public ListNode next = null;
