@@ -60,6 +60,7 @@ public class HeapSort {
      */
     private void buildMaxHeap(int[] arr, int len) {
         //这里需要理解 len/2 ,详情请复习：完全二叉树的性质
+        // i/2是求i的父节点，也就是从右往左，从下往上进行堆化
         for (int i = len/2 ; i >= 0; i--){
             //这里的i都是非叶子结点(0,i)
             heapify(arr, i, len);
