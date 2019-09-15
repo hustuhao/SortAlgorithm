@@ -10,25 +10,22 @@ import org.junit.Test;
 * */
 public class SelectionSort {
     public void SelectionSort(int arr[]){
-        if(arr.length==0)
-            return;
-        int j;
-        for(int i=0;i<arr.length;i++){
-            //min:当前的最小值
-            int min = arr[i];
-            //minX当前最小值的位置
-            int minX = i;
-            for(j=i+1;j<arr.length;j++){
-                /*记录最小的那个数和它的位置*/
-                if(arr[j] < min){
-                    min = arr[j];
-                    minX = j;
+        for(int i = 0 ; i < arr.length - 1; i++){      //内循环,是每次都在减少,修改变量的定义
+            int min = i;
+            for(int j = i+1 ; j < arr.length ; j++){   //数组的元素进行判断
+                if(arr[min] > arr[j]){                   //数组的换位
+                    min = j;
                 }
             }
-            int temp = arr[minX];
-            arr[minX] = arr[i];
-            arr[i] = temp;
+            //将待排序序列的最小值放到i处
+            swap(arr,min,i);
         }
+    }
+
+    public void swap(int[] arr,int i ,int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
     @Test
     public void testSelectionSort(){
