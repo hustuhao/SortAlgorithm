@@ -31,16 +31,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hashCode</find>
-      <find>compare</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="1P8KIt9lcEQiCHdE0IVtGvDm6Mq" />
+  <component name="ProjectId" id="1QGvENM5JC0XDqXQZKKL24I7qZN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -61,13 +55,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
-  <component name="RunManager" selected="Application.BitMapTest">
-    <configuration name="BitMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.big.bitmap.BitMapTest" />
+  <component name="RunManager" selected="JUnit.SelectionSort.testSelectionSort">
+    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.QuickSort2" />
       <module name="SortAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tuhao.big.bitmap.*" />
+          <option name="PATTERN" value="cn.tuhao.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,31 +69,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.common.TreeNode" />
+    <configuration name="trans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trans" />
       <module name="SortAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tuhao.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
+    <configuration name="BinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tuhao.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tuhao.sort" />
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.BinarySearch" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BucketSort.testArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SortAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -108,14 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tuhao.sort" />
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.BucketSort" />
-      <option name="METHOD_NAME" value="testArray" />
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.BinarySearch" />
+      <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSort.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SortAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -124,24 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.tuhao.sort" />
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.RadixSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeNode.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SortAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tuhao.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tuhao.common" />
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.common.TreeNode" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.SelectionSort" />
+      <option name="METHOD_NAME" value="testSelectionSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BitMapTest" />
-        <item itemvalue="JUnit.RadixSort.test" />
-        <item itemvalue="Application.TreeNode" />
-        <item itemvalue="JUnit.TreeNode.test" />
-        <item itemvalue="JUnit.BucketSort.testArray" />
+        <item itemvalue="JUnit.SelectionSort.testSelectionSort" />
+        <item itemvalue="Application.QuickSort2" />
+        <item itemvalue="JUnit.BinarySearch.fun" />
+        <item itemvalue="Application.trans" />
+        <item itemvalue="JUnit.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -189,11 +165,24 @@
       <workItem from="1563871905739" duration="60000" />
       <workItem from="1564496415755" duration="908000" />
       <workItem from="1564549046525" duration="846000" />
-      <workItem from="1564549933858" duration="6565000" />
-      <workItem from="1565250210648" duration="396000" />
-      <workItem from="1565250622841" duration="42000" />
-      <workItem from="1565352407469" duration="655000" />
-      <workItem from="1624161332905" duration="2539000" />
+      <workItem from="1564549933858" duration="7230000" />
+      <workItem from="1564580070068" duration="1504000" />
+      <workItem from="1564624425391" duration="1320000" />
+      <workItem from="1564752116831" duration="71000" />
+      <workItem from="1565075078939" duration="814000" />
+      <workItem from="1565080985428" duration="2488000" />
+      <workItem from="1566004555253" duration="3006000" />
+      <workItem from="1566995930592" duration="6000000" />
+      <workItem from="1567409637336" duration="628000" />
+      <workItem from="1567411374358" duration="1755000" />
+      <workItem from="1567472071017" duration="1455000" />
+      <workItem from="1568115579675" duration="3379000" />
+      <workItem from="1568128109940" duration="209000" />
+      <workItem from="1568198551353" duration="597000" />
+      <workItem from="1568253080224" duration="77000" />
+      <workItem from="1568540292413" duration="422000" />
+      <workItem from="1568541160168" duration="2882000" />
+      <workItem from="1568552435132" duration="3466000" />
     </task>
     <servers />
   </component>
@@ -207,63 +196,16 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:&#10;BubbleSort.java&#10;BaseSortTest.java" />
     <MESSAGE value="adjust" />
     <option name="LAST_COMMIT_MESSAGE" value="adjust" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="502" y="240" key="#Notifications" timestamp="1624163879321">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="502" y="240" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1624163879321" />
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state width="1493" height="240" key="GridCell.Tab.1.bottom" timestamp="1624163803932">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624163803932" />
-    <state width="1493" height="240" key="GridCell.Tab.1.center" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state width="1493" height="240" key="GridCell.Tab.1.left" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state width="1493" height="240" key="GridCell.Tab.1.right" timestamp="1624163803931">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="240" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624163803931" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1624162938963">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1624162938963" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/common/ListNode.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/MergeSortDemo.java</url>
           <line>95</line>
@@ -271,7 +213,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/SelectionSort.java</url>
-          <line>35</line>
+          <line>32</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -295,20 +237,41 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/RadixSort.java</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopK.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopK.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopKK.java</url>
+          <line>96</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/big/bitmap/BitMapTest.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="33" />
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopKK.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/BinarySearch.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/QuickSort2.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="Application">
-        <watch expression="bytes[1]" />
+      <configuration name="JUnit">
+        <watch expression="count" language="JAVA" />
+        <watch expression="res" language="JAVA" custom="java.util.ResourceBundle" />
       </configuration>
     </watches-manager>
   </component>
