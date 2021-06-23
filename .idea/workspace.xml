@@ -47,15 +47,34 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/TortoiseSVN/bin/svn.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.SelectionSort.testSelectionSort">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tuhao.pack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PackageTest">
+    <configuration name="PackageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.pack.PackageTest" />
+      <module name="SortAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tuhao.pack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.QuickSort2" />
       <module name="SortAlgorithm" />
@@ -69,24 +88,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trans" />
+    <configuration name="RiverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.greedy.RiverTest" />
       <module name="SortAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tuhao.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SortAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tuhao.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tuhao.sort" />
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.BinarySearch" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PackageTest" />
+        <item itemvalue="Application.RiverTest" />
         <item itemvalue="JUnit.SelectionSort.testSelectionSort" />
         <item itemvalue="Application.QuickSort2" />
         <item itemvalue="JUnit.BinarySearch.fun" />
-        <item itemvalue="Application.trans" />
-        <item itemvalue="JUnit.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +206,8 @@
       <workItem from="1568540292413" duration="422000" />
       <workItem from="1568541160168" duration="2882000" />
       <workItem from="1568552435132" duration="3466000" />
+      <workItem from="1624243253447" duration="685000" />
+      <workItem from="1624410758855" duration="10506000" />
     </task>
     <servers />
   </component>
@@ -196,12 +221,46 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:&#10;BubbleSort.java&#10;BaseSortTest.java" />
     <MESSAGE value="adjust" />
     <option name="LAST_COMMIT_MESSAGE" value="adjust" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="342" key="GridCell.Tab.0.bottom" timestamp="1624426733560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="342" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
+    <state width="1493" height="342" key="GridCell.Tab.0.center" timestamp="1624426733560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="342" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
+    <state width="1493" height="342" key="GridCell.Tab.0.left" timestamp="1624426733560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="342" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
+    <state width="1493" height="342" key="GridCell.Tab.0.right" timestamp="1624426733560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="342" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
+    <state x="270" y="61" key="SettingsEditor" timestamp="1624243326623">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1624243326623" />
+    <state x="499" y="165" key="extract.method.dialog" timestamp="1624414469871">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="165" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1624414469871" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1624424853945">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1624424853945" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1624425977159">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1624425977159" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
