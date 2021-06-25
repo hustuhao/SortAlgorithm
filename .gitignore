@@ -1,5 +1,7 @@
 # idea
 .idea
+# output
+out
 # Compiled class file
 *.class
 
