@@ -50,31 +50,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="C:/Program Files/TortoiseSVN/bin/svn.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.tuhao.pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PostOrderVisitTest">
-    <configuration name="DeleteDuplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.linklist.DeleteDuplication" />
-      <module name="SortAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tuhao.linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintTreeZ">
     <configuration name="IsPopOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.IsPopOrderTest" />
       <module name="SortAlgorithm" />
@@ -114,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintTreeZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.PrintTreeZ" />
+      <module name="SortAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tuhao.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackToQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.StackToQueueTest" />
       <module name="SortAlgorithm" />
@@ -127,24 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintTreeZ" />
         <item itemvalue="Application.PostOrderVisitTest" />
         <item itemvalue="Application.IsPopOrderTest" />
         <item itemvalue="Application.MinStackTest" />
         <item itemvalue="Application.StackToQueueTest" />
-        <item itemvalue="Application.DeleteDuplication" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,8 @@
       <workItem from="1624410758855" duration="23635000" />
       <workItem from="1624516953743" duration="3259000" />
       <workItem from="1624520328883" duration="27121000" />
-      <workItem from="1624587406750" duration="3323000" />
+      <workItem from="1624587406750" duration="11584000" />
+      <workItem from="1624618225324" duration="5764000" />
     </task>
     <servers />
   </component>
@@ -224,54 +228,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="adjust" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="524" y="117" key="#xdebugger.evaluate" timestamp="1624618438336">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1624618438336" />
     <state width="534" height="466" key="DebuggerActiveHint" timestamp="1624521833876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="534" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1624521833876" />
-    <state width="746" height="153" key="GridCell.Tab.0.bottom" timestamp="1624592712532">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1624623910910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
-    <state width="746" height="153" key="GridCell.Tab.0.center" timestamp="1624592712532">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624623910910" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1624623910910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
-    <state width="746" height="153" key="GridCell.Tab.0.left" timestamp="1624592712532">
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624623910910" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1624623910909">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
-    <state width="746" height="153" key="GridCell.Tab.0.right" timestamp="1624592712532">
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624623910909" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1624623910910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
-    <state width="746" height="153" key="GridCell.Tab.1.bottom" timestamp="1624592712642">
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624623910910" />
+    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1624623911008">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624592712642" />
-    <state width="746" height="153" key="GridCell.Tab.1.center" timestamp="1624592712642">
+    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624623911008" />
+    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1624623911008">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624592712642" />
-    <state width="746" height="153" key="GridCell.Tab.1.left" timestamp="1624592712641">
+    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624623911008" />
+    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1624623911007">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624592712641" />
-    <state width="746" height="153" key="GridCell.Tab.1.right" timestamp="1624592712642">
+    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624623911007" />
+    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1624623911008">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624592712642" />
-    <state x="270" y="61" key="SettingsEditor" timestamp="1624243326623">
+    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624623911008" />
+    <state x="270" y="61" key="SettingsEditor" timestamp="1624616703398">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1624243326623" />
+    <state x="270" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1624616703398" />
     <state x="268" y="153" width="999" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1624587727591">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="268" y="153" width="999" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1624587727591" />
-    <state x="499" y="165" key="extract.method.dialog" timestamp="1624414469871">
+    <state x="499" y="165" key="extract.method.dialog" timestamp="1624617145085">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="165" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1624414469871" />
+    <state x="499" y="165" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1624617145085" />
     <state x="178" y="27" key="new project wizard" timestamp="1624447001800">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -298,6 +306,11 @@
           <line>24</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/stack/PrintTreeZ.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -309,6 +322,9 @@
       <configuration name="JUnit">
         <watch expression="count" language="JAVA" />
         <watch expression="res" language="JAVA" custom="java.util.ResourceBundle" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="print" />
       </configuration>
     </watches-manager>
   </component>
