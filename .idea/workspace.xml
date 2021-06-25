@@ -61,13 +61,13 @@
       <recent name="cn.tuhao.pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PackageTest">
-    <configuration name="PackageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.pack.PackageTest" />
+  <component name="RunManager" selected="Application.PostOrderVisitTest">
+    <configuration name="DeleteDuplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.linklist.DeleteDuplication" />
       <module name="SortAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tuhao.pack.*" />
+          <option name="PATTERN" value="cn.tuhao.linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.QuickSort2" />
+    <configuration name="IsPopOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.IsPopOrderTest" />
       <module name="SortAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tuhao.sort.*" />
+          <option name="PATTERN" value="cn.tuhao.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.greedy.RiverTest" />
+    <configuration name="MinStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.MinStackTest" />
       <module name="SortAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tuhao.greedy.*" />
+          <option name="PATTERN" value="cn.tuhao.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,58 +101,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="PostOrderVisitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.PostOrderVisitTest" />
+      <module name="SortAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tuhao.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackToQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tuhao.stack.StackToQueueTest" />
+      <module name="SortAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tuhao.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SortAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tuhao.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tuhao.sort" />
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.BinarySearch" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SortAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tuhao.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tuhao.sort" />
-      <option name="MAIN_CLASS_NAME" value="cn.tuhao.sort.SelectionSort" />
-      <option name="METHOD_NAME" value="testSelectionSort" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PackageTest" />
-        <item itemvalue="Application.RiverTest" />
-        <item itemvalue="JUnit.SelectionSort.testSelectionSort" />
-        <item itemvalue="Application.QuickSort2" />
-        <item itemvalue="JUnit.BinarySearch.fun" />
+        <item itemvalue="Application.PostOrderVisitTest" />
+        <item itemvalue="Application.IsPopOrderTest" />
+        <item itemvalue="Application.MinStackTest" />
+        <item itemvalue="Application.StackToQueueTest" />
+        <item itemvalue="Application.DeleteDuplication" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +199,10 @@
       <workItem from="1568541160168" duration="2882000" />
       <workItem from="1568552435132" duration="3466000" />
       <workItem from="1624243253447" duration="685000" />
-      <workItem from="1624410758855" duration="10506000" />
+      <workItem from="1624410758855" duration="23635000" />
+      <workItem from="1624516953743" duration="3259000" />
+      <workItem from="1624520328883" duration="27121000" />
+      <workItem from="1624587406750" duration="3323000" />
     </task>
     <servers />
   </component>
@@ -229,34 +224,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="adjust" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="342" key="GridCell.Tab.0.bottom" timestamp="1624426733560">
+    <state width="534" height="466" key="DebuggerActiveHint" timestamp="1624521833876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
-    <state width="1493" height="342" key="GridCell.Tab.0.center" timestamp="1624426733560">
+    <state width="534" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1624521833876" />
+    <state width="746" height="153" key="GridCell.Tab.0.bottom" timestamp="1624592712532">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
-    <state width="1493" height="342" key="GridCell.Tab.0.left" timestamp="1624426733560">
+    <state width="746" height="153" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
+    <state width="746" height="153" key="GridCell.Tab.0.center" timestamp="1624592712532">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
-    <state width="1493" height="342" key="GridCell.Tab.0.right" timestamp="1624426733560">
+    <state width="746" height="153" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
+    <state width="746" height="153" key="GridCell.Tab.0.left" timestamp="1624592712532">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624426733560" />
+    <state width="746" height="153" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
+    <state width="746" height="153" key="GridCell.Tab.0.right" timestamp="1624592712532">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="153" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1624592712532" />
+    <state width="746" height="153" key="GridCell.Tab.1.bottom" timestamp="1624592712642">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="153" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1624592712642" />
+    <state width="746" height="153" key="GridCell.Tab.1.center" timestamp="1624592712642">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="153" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1624592712642" />
+    <state width="746" height="153" key="GridCell.Tab.1.left" timestamp="1624592712641">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="153" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1624592712641" />
+    <state width="746" height="153" key="GridCell.Tab.1.right" timestamp="1624592712642">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="153" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1624592712642" />
     <state x="270" y="61" key="SettingsEditor" timestamp="1624243326623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1624243326623" />
+    <state x="268" y="153" width="999" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1624587727591">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="268" y="153" width="999" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1624587727591" />
     <state x="499" y="165" key="extract.method.dialog" timestamp="1624414469871">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1624414469871" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1624424853945">
+    <state x="178" y="27" key="new project wizard" timestamp="1624447001800">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1624424853945" />
+    <state x="178" y="27" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1624447001800" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1624549262668">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1624549262668" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1624425977159">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -266,67 +289,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/MergeSortDemo.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/stack/PostOrderVisitTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/SelectionSort.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/InsertSort.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/ShellSort.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/BucketSort.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/BucketSort.java</url>
-          <line>120</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopK.java</url>
+          <url>file://$PROJECT_DIR$/src/cn/tuhao/stack/PostOrderVisitTest.java</url>
           <line>24</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopK.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopKK.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/test/TopKK.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/BinarySearch.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/tuhao/sort/QuickSort2.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="count" language="JAVA" />
