@@ -1,7 +1,6 @@
-package cn.tuhao.stack;
+package cn.tuhao.Tree;
 
 import cn.tuhao.common.TreeNode;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -18,11 +17,6 @@ public class PrintTreeZ {
 //        [[8],[10,6],[5,7,9,11]]
         /**
          *     8
-         *    / \
-         *   6   10
-         *  / \  /\
-         * 5  7 9 11
-         *      8
          *    / \
          *   6   10
          *  / \  /\

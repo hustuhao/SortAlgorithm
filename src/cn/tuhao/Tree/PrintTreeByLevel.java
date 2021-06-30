@@ -1,7 +1,6 @@
 package cn.tuhao.Tree;
 
 import cn.tuhao.common.TreeNode;
-import cn.tuhao.stack.PrintTreeZ;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
