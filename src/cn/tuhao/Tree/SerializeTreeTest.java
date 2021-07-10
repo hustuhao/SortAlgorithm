@@ -1,4 +1,4 @@
-package cn.tuhao.Tree;
+package cn.tuhao.tree;
 
 import cn.tuhao.common.TreeNode;
 

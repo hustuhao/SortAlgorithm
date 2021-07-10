@@ -1,7 +1,4 @@
 package cn.tuhao.sort;
-
-import cn.tuhao.common.ListNode;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -21,7 +18,7 @@ public class BubbleSort {
     }
 
     @Test
-    public void testbubleSort(){
+    public void testBubbleSort(){
         int array[] = {6,4,3,7,5,1,2};
         BubbleSort.bubbleSort(array);
     }

@@ -11,15 +11,15 @@ public class CommonLinkListTest {
         ListNode seven = new ListNode(7);
         one.next = two;
         two.next = three;
-        three.next = six;
-        six.next = seven;
+//        three.next = six;
+//        six.next = seven;
 
         ListNode four = new ListNode(4);
         ListNode five = new ListNode(5);
         four.next = five;
-        five.next = six;
+//        five.next = six;
 
-        ListNode merge = FindFirstCommonNode(one, four);
+        ListNode merge = FindFirstCommonNodeTwo(one, four);
         System.out.println("-----------------------");
     }
     /*
@@ -90,10 +90,14 @@ public class CommonLinkListTest {
         }
         ListNode pOne = pHead1;
         ListNode pTwo = pHead2;
-        // 很重要：结束条件,有公共节点则走到公共节点，没有则均为null，走到两个链表的最后的节点的next指针
+        // 很重要：结束条件,有公共节点则走到公共节点，没有则走到链表头，走到两个链表的最后的节点的next指针
         while (pOne != pTwo) {
+            // 注意这里比较巧妙，需要理解一下
             pOne = null == pOne.next ? pHead2 : pOne.next;
             pTwo = null == pTwo.next ? pHead1 : pTwo.next;
+            if (pOne == pHead2 && pTwo == pHead1) {
+                return null;
+            }
         }
         return pOne;
     }

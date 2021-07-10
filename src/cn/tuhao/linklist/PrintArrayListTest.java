@@ -4,6 +4,9 @@ import cn.tuhao.common.ListNode;
 
 import java.util.*;
 
+/**
+ * 逆序打印链表
+ */
 public class PrintArrayListTest {
     public static void main(String[] args) {
         ListNode one = new ListNode(1);

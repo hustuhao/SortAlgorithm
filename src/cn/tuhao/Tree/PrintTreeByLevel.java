@@ -1,4 +1,4 @@
-package cn.tuhao.Tree;
+package cn.tuhao.tree;
 
 import cn.tuhao.common.TreeNode;
 
@@ -8,7 +8,13 @@ import java.util.LinkedList;
 /**
  * @desc JZ22 从上往下打印二叉树
  * @url https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701
- * 按层次打印二叉树
+ * 按层次打印二叉树,BFS
+ *
+ * 非递归算法：
+ * 1、初始化：一个队列queue<TreeNode*> q， 将root节点入队列q
+ * 2、如果队列不空，做如下操作：
+ * 3、弹出队列头，保存为node，将node的左右非空孩子加入队列
+ * 4、做2,3步骤，知道队列为空
  */
 public class PrintTreeByLevel {
     /**

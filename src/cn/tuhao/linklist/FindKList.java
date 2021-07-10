@@ -4,6 +4,9 @@ import cn.tuhao.common.ListNode;
 
 import java.util.LinkedList;
 
+/**
+ * JZ14 链表中倒数最后k个结点
+ */
 public class FindKList {
     public static void main(String[] args) {
         ListNode one = new ListNode(1);
@@ -29,6 +32,30 @@ public class FindKList {
     }
 
     /**
+     * 最优解法   双指针
+     * k + (x - k) = y
+     * 1、第一个指针先走K步，此时第二个指针开始走
+     * 2、等到第一个指针走到终点，第二个指针的位置就是距离终点K步
+     * @param pHead
+     * @param k
+     * @return
+     */
+    public ListNode FindKthToTail (ListNode pHead, int k) {
+        ListNode first = pHead;
+        for(int  i= 0;i<k;i++){
+            if(first == null) return first;
+            first = first.next;
+
+        }
+        ListNode last = pHead;
+        while(first!=null){
+            first = first.next;
+            last = last.next;
+        }
+        return last;
+    }
+
+    /**
      * 暴力遍历
      * @param pHead
      * @param k
@@ -42,10 +69,8 @@ public class FindKList {
             return null;
         }
         ListNode curNode = pHead;
-        ListNode preNode = null;
         int n = 0;
         while (null != curNode) {
-            preNode = curNode;
             curNode = curNode.next;
             n++;
         }
@@ -56,7 +81,6 @@ public class FindKList {
         int count = 0;
         // 1 4  2 4 3 4  4 4
         while (null != anotherCurNode && count != (n - k)) {
-            preNode = anotherCurNode;
             anotherCurNode = anotherCurNode.next;
             count++;
         }

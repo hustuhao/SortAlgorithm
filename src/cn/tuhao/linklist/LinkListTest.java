@@ -2,6 +2,9 @@ package cn.tuhao.linklist;
 
 import cn.tuhao.common.ListNode;
 
+/**
+ * 反转链表
+ */
 public class LinkListTest {
 
     public static void main(String[] args) {

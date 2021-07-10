@@ -12,6 +12,8 @@ public class TestThree {
      * 数组长度为10，将数组分为两个部分。
      * 两部分和最小
      * 10 9 8 7 6 5 4 3 2 1
+     *
+     * 核心思路：使数组的和趋近总和的一半
      * @param args
      */
     public static void main(String[] args) {

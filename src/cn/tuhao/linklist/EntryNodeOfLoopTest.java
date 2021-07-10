@@ -2,7 +2,6 @@ package cn.tuhao.linklist;
 
 import cn.tuhao.common.ListNode;
 
-import java.util.ArrayList;
 
 public class EntryNodeOfLoopTest {
     /**
@@ -15,6 +14,36 @@ public class EntryNodeOfLoopTest {
      * 返回值描述：
      * 返回链表的环的入口结点即可。而我们后台程序会打印这个节点
      */
+    public static ListNode EntryNodeOfLoop(ListNode pHead) {
+        if (null == pHead) {
+            return null;
+        }
+       // 两个指针：x1,x2
+       ListNode fast = pHead;
+       ListNode slow = pHead;
+       while (null != fast) {
+            fast = null == fast.next ? null : fast.next.next;
+            slow = slow.next;
+            // 无环的情况
+            if (null == fast || null == fast.next) {
+                return null;
+            }
+            // 两个指针相遇说明有环
+           if (fast == slow) {
+               break;
+           }
+       }
+
+       fast = pHead;
+       while (true) {
+           if (fast == slow) {
+               return fast;
+           } else {
+               fast = fast.next;
+               slow = slow.next;
+           }
+       }
+    }
 
     public static void main(String[] args) {
         ListNode one = new ListNode(1);
@@ -29,33 +58,5 @@ public class EntryNodeOfLoopTest {
         five.setNext(three);
         ListNode listNode = EntryNodeOfLoop(one);
         System.out.println("-------------------");
-    }
-    public static ListNode EntryNodeOfLoop(ListNode pHead) {
-        if (null == pHead) {
-            return null;
-        }
-       // 两个指针：x1,x2
-       ListNode fast = pHead;
-       ListNode slow = pHead;
-       while (null != fast) {
-            fast = null == fast.next ? null : fast.next.next;
-            slow = slow.next;
-            if (null == fast || null == fast.next) {
-                return null;
-            }
-           if (fast.val == slow.val) {
-               break;
-           }
-       }
-
-       fast = pHead;
-       while (true) {
-           if (fast.val == slow.val) {
-               return fast;
-           } else {
-               fast = fast.next;
-               slow = slow.next;
-           }
-       }
     }
 }

@@ -4,6 +4,25 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+/**
+ *
+ * 二分法的模板：
+ * int binarySearch(int[] nums, int target) {
+ *     int left = 0, right = ...;
+ *
+ *     while(left < right) {
+ *         int mid = left + (right - left) / 2;
+ *         if (nums[mid] == target) {
+ *             ...
+ *         } else if (nums[mid] < target) {
+ *             left = mid + 1
+ *         } else if (nums[mid] > target) {
+ *             right = mid
+ *         }
+ *     }
+ *     return ...;
+ * }
+ */
 public class BinarySearch {
      /*
 	     定义方法,实现,折半查找
@@ -26,6 +45,44 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    // 搜索左侧边界
+    public int left_bound(int[] nums, int target) {
+        if (nums.length == 0) return -1;
+        int left = 0, right = nums.length;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                // 当找到 target 时，收缩右侧边界
+                right = mid;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid;
+            }
+        }
+        return left;
+    }
+
+    // 搜索右侧边界
+    public int right_bound(int[] nums, int target) {
+        if (nums.length == 0) return -1;
+        int left = 0, right = nums.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                // 当找到 target 时，收缩左侧边界
+                left = mid + 1;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid;
+            }
+        }
+        return left - 1;
+    }
+
     @Test
     public void fun(){
 

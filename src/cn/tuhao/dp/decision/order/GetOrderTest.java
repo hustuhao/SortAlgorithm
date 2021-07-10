@@ -25,6 +25,15 @@ import java.util.*;
  * Arrays.sort(int[])
  * Arrays.sort(Integer[], Collections.reverseOrder())
  *
+ *
+ *
+ * 回溯是递归的一种形式，通常情况是，你面临一些选项，你必须选择其中一个。在你做出选择后，你又会得到一组新的选择，即你所得到的选项取决于你所做的选择。这种步骤不断重复，直到你到达最终状态，如果你一直做出对的选择，最后的状态就是目标状态。如果你没有，它就不是。
+ *
+ * 作者：xiao_ben_zhu
+ * 链接：https://leetcode-cn.com/problems/restore-ip-addresses/solution/shou-hua-tu-jie-huan-yuan-dfs-hui-su-de-xi-jie-by-/
+ * 来源：力扣（LeetCode）
+ * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ *
  */
 public class GetOrderTest {
     public static List<List<Integer>> res = new LinkedList<>();
