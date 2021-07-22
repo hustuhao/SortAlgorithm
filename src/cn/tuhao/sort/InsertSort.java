@@ -2,24 +2,24 @@ package cn.tuhao.sort;
 
 import org.junit.Test;
 
-/*插入排序
-* 时间复杂度：O(n2)
-* 输入数据原本的排序是从大到小的时候是最糟糕的情况
-* */
+/**
+ * 插入排序
+ * 时间复杂度：O(n2)
+ * 输入数据原本的排序是从大到小的时候是最糟糕的情况
+ **/
 public class InsertSort {
     public void insertSort(int[] arr){
         int len = arr.length;
-        if(len<=1)
+        if(len <= 1)
             return;
-        for(int i=0;i<len;i++){
-            for(int j=i;j>0;j--){
+        for(int i = 0; i < len; i++) {
+            for(int j = i; j > 0; j--){
                 if(arr[j] < arr[j-1]) {
                     swap(arr, j, j-1);
                 }else{
                     break;
                 }
             }
-
         }
     }
 

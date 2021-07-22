@@ -2,6 +2,7 @@ package cn.tuhao.sort;
 import org.junit.Test;
 
 /**
+ * 冒泡排序：
  * 从左到右，从小到大
  */
 public class BubbleSort {

@@ -47,16 +47,34 @@ public class HeapSort {
         for (int i = len - 1; i > 0; i--) {
             //arr[0]从处是最大值，所以把最大值放在最后面。
             swap(arr, 0, i);
-            len--;
             // 重建大顶堆
             // 将arr变成大顶堆，使arr[0]存储当前大顶堆最大值
-            heapify(arr, 0, len);
+            heapify(arr, 0, --len);
         }
         return arr;
     }
 
     /**
      * 构建大顶堆
+     * {12,5,9,36,8,21,7}
+     *      12
+     *     /  \
+     *    5    9
+     *   /\    /\
+     *  36 8  21 7
+     *
+     *    9        21
+     *   / \       /\
+     * 21   7     9  7
+     *
+     *    5         36
+     *   / \       /  \
+     *  36  8     5    8
+     *
+     *     12
+     *    / \
+     *  36   21
+     *
      */
     private void buildMaxHeap(int[] arr, int len) {
         //这里需要理解 len/2 ,详情请复习：完全二叉树的性质

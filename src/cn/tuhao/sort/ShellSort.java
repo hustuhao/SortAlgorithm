@@ -2,9 +2,10 @@ package cn.tuhao.sort;
 
 import org.junit.Test;
 
-/*希尔排序，插入排序的一种改进方法
-* 与插入排序的不同之处在于：每一次数组序号不是变化1，而是变化increment
-* */
+/**
+ * 希尔排序，插入排序的一种改进方法
+ * 与插入排序的不同之处在于：每一次数组序号不是变化1，而是变化increment
+ **/
 public class ShellSort {
     public void shellSort(int[] arr){
         int len = arr.length;

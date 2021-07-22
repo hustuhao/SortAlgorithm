@@ -3,12 +3,59 @@ package cn.tuhao.sort;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Collections;
 
-/*桶排序：分而治之 & 插入排序
+
+/**
+ * 桶排序：分而治之 & 插入排序
 * 缺点：空间复杂度高(step的选取)
 * 桶使用一个数组的缺点：时间复杂度提高，因为每一次都要遍历整个数组
+* 桶排序 + 快排
 * */
 public class BucketSort {
+
+    /**
+     * 方法一
+     * @param arr
+     */
+    public static void bucketSort(int[] arr){
+        // 计算最大值与最小值
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for(int i = 0; i < arr.length; i++){
+            max = Math.max(max, arr[i]);
+            min = Math.min(min, arr[i]);
+        }
+
+        // 计算桶的数量
+        int bucketNum = (max - min) / arr.length + 1;
+        ArrayList<ArrayList<Integer>> bucketArr = new ArrayList<>(bucketNum);
+        for(int i = 0; i < bucketNum; i++){
+            bucketArr.add(new ArrayList<Integer>());
+        }
+
+        // 将每个元素放入桶
+        for(int i = 0; i < arr.length; i++){
+            int num = (arr[i] - min) / (arr.length);
+            bucketArr.get(num).add(arr[i]);
+        }
+
+        // 对每个桶进行排序
+        for(int i = 0; i < bucketArr.size(); i++){
+            Collections.sort(bucketArr.get(i));
+        }
+
+        // 将桶中的元素赋值到原序列
+        int index = 0;
+        for(int i = 0; i < bucketArr.size(); i++){
+            for(int j = 0; j < bucketArr.get(i).size(); j++){
+                arr[index++] = bucketArr.get(i).get(j);
+            }
+        }
+    }
+
+
     /*复习二维数组的使用，不过这里不必用到二维数组*/
     public void bucketSort(int[] arr, int step) {
         /*共用这个桶*/

@@ -6,6 +6,9 @@ import java.util.LinkedList;
 
 /**
  * JZ14 链表中倒数最后k个结点
+ * 解法：
+ * 1、双指针
+ * 2、大小为 k 的栈
  */
 public class FindKList {
     public static void main(String[] args) {

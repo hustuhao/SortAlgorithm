@@ -6,12 +6,19 @@ import java.util.LinkedList;
 /**
  * pivot 基准值，哨兵
  * 时间复杂度：最糟糕得情况下时间复杂度是O(n²)，平均的复杂度是O(nlogn)
+ * 时间复杂度计算：https://blog.csdn.net/qq_20746945/article/details/89378662
+ *
+ * @时间复杂度计算
+ * 每一层需要操作n次，一共有logn层，所以时间复杂度是 nlogn
+ *
  * @核心思想：
  * 1、分而治之，每一轮确定基准值key的位置。
  * 2、同时利用key，将区间划分为大于key的区间和小于key的区间
+ *
  * @方法
  * 方法一：递归
  * 方法二：非递归（队列 ）
+ *
  */
 public class QuickSort {
     /**
@@ -26,10 +33,10 @@ public class QuickSort {
         // 设置基准值
         int key=arr[low];
         //本轮结束条件 i==j
-        while(i < j)
-        {
+        while(i < j) {
             //从后面找，直到直到符合条件的数 x < key
-            while(i<j && arr[j]>=key) j--;
+            while(i < j && arr[j]>=key)
+                j--;
 
             //交换a[i]和a[j]
             if(i < j) {
@@ -37,7 +44,8 @@ public class QuickSort {
                 i++;
             }
             //从前面找，直到直到符合条件的数 x > key
-            while(i < j && arr[i] <= key) i++;
+            while(i < j && arr[i] <= key)
+                i++;
             //交换a[i]和a[j]
             if(i < j){
                 swap(arr, i, j);
@@ -46,10 +54,11 @@ public class QuickSort {
         }
         //本轮结束，确定了基准值的位置i，开始下面几轮,确定左右两个区间的位置
         /*将序列以key为界分成大于key和小于key的两部分：不把key放入其中*/
-        if(i > low)
-            quickSortA(arr,low,i-1);
-        if(j < high)
-            quickSortA(arr,i+1,high);
+        int mid = i;
+        if(mid > low)
+            quickSortA(arr,low,mid-1);
+        if(mid < high)
+            quickSortA(arr,mid+1,high);
     }
 
     /**

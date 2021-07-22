@@ -73,7 +73,7 @@ public class SerializeTreeTest {
         }
         return sb.toString();
     }
-    TreeNode Deserialize(String str) {
+    public TreeNode Deserialize(String str) {
         // 1|获取字符串数组
         String[] nodeStrList = str.split("\\|");
         // 2|创建所有的节点
