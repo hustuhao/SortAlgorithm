@@ -3,8 +3,6 @@ package cn.tuhao.array;
 import cn.tuhao.sort.BinarySearch;
 import org.junit.Test;
 
-import java.util.Arrays;
-
 /**
  * 获取顺序数组中的绝对值最小的数。
  * 考点：分治，查找

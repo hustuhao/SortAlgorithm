@@ -16,7 +16,7 @@ import java.util.*;
  *
  *     for 选择 in 选择列表:
  *         做选择:
- *             路径.add(选择))
+ *             路径.add(选择)
  *         backtrack(路径, 选择列表)
  *         撤销选择:
  *             路径.remove(选择)
