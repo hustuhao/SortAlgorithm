@@ -17,7 +17,7 @@ import org.junit.Test;
 
 public class RemoveSpacesTest {
     public static char BLANK = ' ';
-    public static int RemoveSpaces(char[] s, int length) {
+    public static int RemoveSpaces2(char[] s, int length) {
         if (length == 0) {
             return 0;
         }
@@ -62,6 +62,54 @@ public class RemoveSpacesTest {
             len = length;
         }
         return len;
+    }
+
+
+    public static int RemoveSpaces(char[] s, int length) {
+        if (length == 0) {
+            return 0;
+        }
+        int a = 0; // 记录当前数组中空白字符最靠前的数组下标
+        int b = 0; // b-c 为不包含空白字符串的序列， 即[b-c]为不包含空白字符
+        int c = 0;
+        for (int i = 0; i < s.length; i++) {
+            if (s[i] == BLANK && s[a] != BLANK) { // 记录最靠前的空白字符
+                a = i;
+                continue;
+            } else if (s[i] == BLANK) { // 非最靠前的空白字符就跳过
+                continue;
+            } else if (s[i] != BLANK && s[a] != BLANK) {
+                continue;
+            }
+
+            // 找出不包含空白字符的序列
+            b = i;
+            c = getPureArray(s, b);
+            memcopy(s, s, a, b, c-b+1);
+            a +=c-b+1; // 刷新a的位置
+            i = c;
+        }
+        int len = a;
+        if (a == 0 && s[length-1] != BLANK) {
+            len = length;
+        }
+        return len;
+    }
+
+    public static int getPureArray(char[] s, int left) {
+        int right = 0;
+        for (int i = left; i < s.length; i++) {
+            if (s[i] == BLANK) {
+                right = i-1;
+                break;
+            } else {
+                right = i;
+            }
+        }
+        if (right == 0) {
+            right = s.length + left;
+        }
+        return right;
     }
 
     // 可以替换成其他效率更高的赋值方法
